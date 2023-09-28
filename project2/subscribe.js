@@ -16,7 +16,7 @@ const time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSecond
 const dateTime = date + " " + time;
 
 let latitude = Math.random() * 100 + 1;
-let longitude = Math.random() * 100 + 1
+let longitude = Math.random() * 100 + 1;
 
 let payload = []
 payload.push({
